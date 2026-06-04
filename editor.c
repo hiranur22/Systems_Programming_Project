@@ -31,6 +31,7 @@ void checkAutoGC();
 int cursorLine(int screenRow);
 int cursorChar(int screenRow, int screenCol);
 
+void runEditor()
 {
     int  selectedRow = 0;    
     int  selectedCol = 0;     
